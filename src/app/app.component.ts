@@ -20,7 +20,8 @@ export class AppComponent {
       name: new FormControl(''),
       white_wine: new FormControl(0),
       red_wine: new FormControl(0),
-      beer: new FormControl(0)
+      beer: new FormControl(0),
+      test: new FormControl()
     });
   }
 
